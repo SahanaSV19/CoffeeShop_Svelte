@@ -18,7 +18,11 @@
 </script>
 
 <nav class="flex justify-between p-4 bg-green-600 text-white">
-  <div class="text-xl">Coffee Shop</div>
+  <img
+    src="https://cdn.pixabay.com/photo/2018/03/11/17/36/coffee-3217471_1280.png"
+    class="w-12 h-12"
+    alt=""
+  />
   <div class="flex items-center">
     <a href="/cart" class="mr-4">🛒</a>
     {#if user}
